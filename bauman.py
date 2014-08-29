@@ -3,15 +3,12 @@
 
 import datetime
 from datetime import datetime as d
-import time
 import unicodecsv
 
 from tp import GCalendarEntry
 
 
 class TimeTableEntry:
-    local_time = time.localtime()
-
     def __init__(self, data):
         self.day = data['day']
         self.nomdom = data['nomdom']
@@ -64,7 +61,9 @@ class BaumanParser:
             w = unicodecsv.writer(f, encoding='utf-8')
 
             w.writerow(GCalendarEntry.header_row)
-            while current_day != self.last_day:
+
+            very_last_day = self.last_day + datetime.timedelta(days=1)
+            while current_day != very_last_day:
 
                 if current_day.weekday() == self.weekdays['sun']:
                     (nomdom, nomdom_index) = next_nomdom(nomdom_index)
