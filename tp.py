@@ -72,8 +72,8 @@ class TimetableParser:
         group_id = self._get_group_id(parsed_page, self.group_name)
 
         params = {
-            'start': '1409515200',
-            'end': '1423944000',
+            'start': '1420070400',
+            'end': '1435957200',
             'filter[subgroup_id][]': group_id,
             'filter[type_id][]': 'all',
             'filter[discipline_id][]': 'all',
@@ -144,7 +144,7 @@ class TimetableParser:
 
 if __name__ == "__main__":
     OUTPUT_FILENAME = "out_tp.csv"
-    GROUP_NAME = u"АПО-31"
+    GROUP_NAME = u"АПО-41"
 
     parser = TimetableParser(OUTPUT_FILENAME, GROUP_NAME)
     parser.parse()

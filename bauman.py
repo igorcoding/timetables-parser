@@ -20,8 +20,8 @@ class TimeTableEntry:
 
 
 class BaumanParser:
-    first_day = d.strptime("01.09.2014", "%d.%m.%Y")
-    last_day = d.strptime("31.12.2014", "%d.%m.%Y")
+    first_day = d.strptime("02.02.2015", "%d.%m.%Y")
+    last_day = d.strptime("30.04.2015", "%d.%m.%Y")
 
     weekdays = {
         'mon': 0,
