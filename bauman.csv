@@ -1,16 +1,12 @@
-day,nomdom,discipline,location,type,begin,end
-mon,dom,Конфликтология,533,seminar,08:30:00 AM,10:05:00 AM
-mon,nom,Русский язык,425ю,seminar,10:15:00 AM,11:50:00 AM
-mon,dom,Конфлктология,533,lecture,10:15:00 AM,11:50:00 AM
-mon,all,Эксплуатация АСОИУ,533,lecture,12:00:00 PM,01:35:00 PM
-mon,all,РК АСОИУ,432,seminar,01:50:00 PM,03:25:00 PM
-tue,all,Экономика,515ю,lecture,08:30:00 AM,10:05:00 AM
-tue,all,Защита информации,515ю,lecture,10:15:00 AM,11:50:00 AM
-tue,all,МППР,515ю,lecture,12:00:00 PM,01:35:00 PM
-tue,nom,Эксплуатация АСОИУ,515ю,lecture,01:50:00 PM,03:25:00 PM
-wed,dom,РК АСОИУ,700,lab,10:15:00 AM,01:35:00 PM
-thu,all,Защита информации,395,seminar,10:15:00 AM,11:50:00 AM
-thu,all,Русский язык,392,lecture,12:00:00 PM,01:35:00 PM
-thu,all,МППР,432,lecture,03:40:00 PM,05:15:00 PM
-thu,all,РК АСОИУ,515ю,lecture,05:25:00 PM,07:00:00 PM
-fri,dom,МППР,404э,lab,09:30:00 AM,11:30:00 AM
+day,nomdom,lessons,type,discipline,location
+mon,dom,4,lab,ООП,395
+mon,all,5,lecture,ООП,515ю
+mon,dom,6,lecture,УКС,424
+wed,all,2,lecture,"Основы предпринимательства",212л
+wed,all,3,lecture,"Методы научного познания",212л
+thu,all,6,lecture,ТОРА,306ю
+thu,nom,7,seminar,ТОРА,306ю
+thu,dom,7,seminar,УКС,424
+fri,all,2,seminar,ИНО,620
+fri,all,3,lecture,"Проектирование интеллектуальных систем",424
+fri,nom,4,lab,"Проектирование интеллектуальных систем",395
